@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="4.0"
+	package="org.example.mvp_civicare" version="1.0.0">
+	<profile name="wearable" />
+	<ui-application appid="org.example.mvp_civicare" exec="mvp_civicare"
+		type="capp" multiple="false" taskmanage="true" nodisplay="false">
+		<icon>mvp_civicare.png</icon>
+		<label>mvp_civicare</label>
+	</ui-application>
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="6.0" package="org.example.basicuicivicawarable" version="1.0.0">
+    <author email="joseamorenom02@gmail.com">José Alejandro Moreno Mesa</author>
+    <description>Extensión para accesorios inteligentes usando la App Civica</description>
+    <profile name="wearable"/>
+    <ui-application appid="org.example.basicuicivicawarable" exec="basicuicivicawarable" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>Civicare</label>
+        <label xml:lang="es-es">Espanol</label>
+        <icon>WhatsApp Image 2022-03-05 at 12.39.39 PM.jpeg</icon>
+    </ui-application>
+    <feature name="http://tizen.org/feature/network.bluetooth">true</feature>
+    <feature name="http://tizen.org/feature/network.nfc.card_emulation">true</feature>
+    <feature name="http://tizen.org/feature/network.nfc.tag">true</feature>
+</manifest>
